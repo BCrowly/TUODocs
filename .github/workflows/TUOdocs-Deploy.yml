@@ -1,6 +1,8 @@
 name: Build TUO docs
 
 on:
+  workflow_dispatch:
+    
   repository_dispatch:
     types: [update-docs]
 
